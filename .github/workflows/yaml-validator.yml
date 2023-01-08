@@ -20,8 +20,7 @@
       with:
        validator: 'RegEx'
        options:
-        "feat(new): commit"
-        "chore(old): commit"
+        '[a-z]'
         # Uncomment to disable strict checks
         # no-strict: true
   
