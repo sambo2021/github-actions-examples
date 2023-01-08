@@ -12,7 +12,7 @@
     runs-on: ubuntu-latest
     steps:
     - uses: brittonhayes/validate-yaml@v0.3.0
-    - name: validate yaml file 
+      name: validate yaml file 
       with:
     # Files to validate
        schema_path: schema.yaml
