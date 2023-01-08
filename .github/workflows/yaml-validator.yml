@@ -19,8 +19,8 @@
     - uses: IceflowRE/gitcc@v2
       with:
        validator: 'RegEx'
-       options:
-        '[a-z]'
+       options: '[a-z]'
+       access_token: ''
         # Uncomment to disable strict checks
         # no-strict: true
   
