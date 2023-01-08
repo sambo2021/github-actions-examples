@@ -1,9 +1,0 @@
-
-{
-    "test": {
-      "structure": {
-        "myValue": "string",
-        "myValue2": "string"
-      }
-    }
-  }

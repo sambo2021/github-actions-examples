@@ -11,10 +11,19 @@
    validate-yaml:
     runs-on: ubuntu-latest
     steps:
-    - uses: brittonhayes/validate-yaml@v0.5.1
-      name: validate yaml file 
+    - uses: actions/checkout@v2
+    - uses: nrkno/yaml-schema-validator-github-action@v4
       with:
-    # Files to validate
-       schemaPath: schema/schema.json
-       files: |
-          example/*.yml
+        schema: schema/schema.yml
+        target: example/*.yml
+        # Uncomment to disable strict checks
+        # no-strict: true
+
+
+    # - uses: brittonhayes/validate-yaml@v0.5.1
+    #   name: validate yaml file 
+    #   with:
+    # # Files to validate
+    #    schemaPath: schema/schema.json
+    #    files: |
+    #       example/*.yml
