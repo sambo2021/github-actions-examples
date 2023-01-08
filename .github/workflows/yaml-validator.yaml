@@ -15,7 +15,7 @@
       name: validate yaml file 
       with:
     # Files to validate
-       schema_path: schema.yaml
-       document_path: example/*.yaml
+       schemaPath: schema.yaml
+       documentPath: example/*.yaml
        validate_file_extenstion: 'no'
        filter_extentions: '.yml,.yaml'
