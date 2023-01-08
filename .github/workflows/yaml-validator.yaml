@@ -15,5 +15,5 @@
       name: validate yaml file 
       with:
     # Files to validate
-       schemaPath: schema.yaml
+       schemaPath: .github/workflows/schema.yaml
        files: example/*.yaml
