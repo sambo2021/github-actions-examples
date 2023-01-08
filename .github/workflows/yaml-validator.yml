@@ -17,4 +17,4 @@
     # Files to validate
        schemaPath: schema/*
        files: |
-         example/*.yaml
+          example/*.yaml
