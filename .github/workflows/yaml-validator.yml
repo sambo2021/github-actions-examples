@@ -21,6 +21,7 @@
        validator: 'RegEx'
        options:
         "feat(new): commit"
+        "chore(old): commit"
         # Uncomment to disable strict checks
         # no-strict: true
   
