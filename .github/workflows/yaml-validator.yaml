@@ -15,6 +15,6 @@
       name: validate yaml file 
       with:
     # Files to validate
-       schemaPath: 'schema.json'
+       schemaPath: schema.json
        files: |
          example/*.yaml
