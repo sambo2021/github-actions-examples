@@ -1,1 +1,21 @@
 
+  name: Validate YAML
+  # You may pin to the exact commit or the version.
+  # uses: brittonhayes/validate-yaml@7039dd2e9ab1840a5d0934ae0ad3fa4c9c03ff5f
+  on:
+   push:
+    branches: [main]
+   pull_request:
+    branches: [main]
+  jobs:
+   validate-yaml:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: brittonhayes/validate-yaml@v0.3.0
+    - name: validate yaml file 
+      with:
+    # Files to validate
+       schema_path: schema.yaml
+       document_path: example/*.yaml
+       validate_file_extenstion: 'no'
+       filter_extentions: '.yml,.yaml'
