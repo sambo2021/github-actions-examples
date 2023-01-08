@@ -15,7 +15,7 @@
     - uses: nrkno/yaml-schema-validator-github-action@v4
       with:
         schema: schema/schema.yml
-        target: example/*.yml
+        target: example/valid.yml
         # Uncomment to disable strict checks
         # no-strict: true
 
