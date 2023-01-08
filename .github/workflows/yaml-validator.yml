@@ -15,11 +15,17 @@
     - uses: nrkno/yaml-schema-validator-github-action@v4
       with:
         schema: schema/schema.yml
-        target: example/invalid.yml
+        target: example/valid.yml
+    - uses: IceflowRE/gitcc@v2
+      with:
+       validator: 'RegEx'
+       options:
+        "feat(new): commit"
         # Uncomment to disable strict checks
         # no-strict: true
+  
 
-
+      
     # - uses: brittonhayes/validate-yaml@v0.5.1
     #   name: validate yaml file 
     #   with:
