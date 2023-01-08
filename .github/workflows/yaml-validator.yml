@@ -17,4 +17,4 @@
     # Files to validate
        schemaPath: schema/schema.json
        files: |
-          example/*.yaml
+          example/*.yml
