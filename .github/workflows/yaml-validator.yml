@@ -19,6 +19,7 @@
         # Uncomment to disable strict checks
         # no-strict: true
 
+      
     # - uses: brittonhayes/validate-yaml@v0.5.1
     #   name: validate yaml file 
     #   with:
